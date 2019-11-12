@@ -1,0 +1,1 @@
+// Rotas (Caso existam) devem possuir um arquivo próprio para fácil identificação

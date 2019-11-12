@@ -1,0 +1,1 @@
+// Deve ser responsável pela conexão com o banco e possuir somente métodos genéricos que possam ser utilizados por vários módulos
