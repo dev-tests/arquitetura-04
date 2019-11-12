@@ -1,16 +1,12 @@
-import { Cliente } from "./cliente";
+import { ClienteModel } from '../../models/cliente.model';
+import { CarroModel } from '../../models/carro.model';
 
-export class ClienteImp implements Cliente {
+export class ClienteAndCarImp implements Partial<ClienteModel>, Partial<CarroModel> {
     ativo: boolean
     idCliente: number
     nasc: Date
     nome: string
     status: string
-
-    constructor(cliente: Cliente) {
-      this.ativo= cliente.ativo
-      this.idCliente= cliente.idCliente
-      this.nasc = cliente.nasc 
-      this.nome = cliente.nome
-    }
+    carroNome: string
+    idCarro: number
 }
