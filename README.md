@@ -2,6 +2,8 @@
 Modelo de arquitetura usada
 
 TECNOLOGIAS USADAS:
+MYSQL
+MONGODB
 
 VARIÁVEIS AMBIENTAIS:
 
