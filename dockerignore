@@ -6,3 +6,4 @@ package-lock.json
 Dockerfile
 .gitignore
 .env
+yarn.lock
